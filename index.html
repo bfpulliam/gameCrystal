@@ -11,25 +11,30 @@
 </head>
 
 <body>
-
+    <!--Title box-->
+    <h1>MAGIC CRYSTAL GUESSER</h1>
+    <!--Instructions-->
+    <p>Game Rules:</p>
+    <p>You will be given a random number at the start of the game.  By clicking on the crystals below you will add a specific amount of points to your total number.  If you can guess the number, you will win.</p>
+    <!--Where the random number will be displayed-->
     <h1>Number to Guess: <span id="number-to-guess"></span></h1>
-
+    <!--clickable gems-->
     <div class="container gems">
         <img id="one" src="assets/images/pierre-1190156_640.jpg" alt="image 1"></img>
         <img id="two" src="assets/images/pierre-1190156_640.jpg" alt="image 2"></img>
         <img id="three" src="assets/images/pierre-1190156_640.jpg" alt="image 3"></img>
         <img id="four" src="assets/images/pierre-1190156_640.jpg" alt="image 4"></img>
     </div>
-
+    <!--Guess total box-->
     <div class="container">
         <h2>Total: <span id="counter"></span></h2>
     </div><br>
-       
+    <!--Status of wins and losses-->   
     </div class="container">
     <h2><strong>Wins:</strong><span id="win"></span></h2><br>
     <h2><strong>Losses:</strong><span id="loss"></span></h2>
     </div>
-
+    <!--jquery link-->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!--Link to my javascript-->
     <script src="assets/javascript/game.js"></script>
