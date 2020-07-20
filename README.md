@@ -1,4 +1,4 @@
-#Crystal Game that uses Jquery
+# Crystal Game that uses Jquery
 
 Game Rules:
 The player is shown a random number and four crystals with hidden values at the start of the game.
